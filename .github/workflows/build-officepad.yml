@@ -32,7 +32,7 @@ jobs:
 
       - name: Extract OfficePad source
         run: |
-          unzip -o OfficePad-Android-Source.zip -d source
+          unzip -o OfficePad-Android-Source-0.2.zip -d source
           test -f source/OfficePad-Android/app/build.gradle.kts
 
       - name: Build debug APK
